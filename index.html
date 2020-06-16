@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .game{
+            margin:0 auto;
+            position: relative;
+        }
+        .item{
+            position: absolute;
+            width: 45px;
+            height: 45px;
+            background-size: 100% 100%;
+        }
+        .wall{
+            background-image: url("./imgs/wall.jpg");
+        }
+        .box{
+            background-image: url("./imgs/box.png");
+        }
+        .over-box{
+            background-image: url("./imgs/over_box.png");
+        }
+        .player{
+            background-image: url("./imgs/player.png");
+        }
+        .correct{
+            border:2px solid green;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="game"></div>
+
+    <script src="./module/index.js" type="module"></script>
+</body>
+</html>
